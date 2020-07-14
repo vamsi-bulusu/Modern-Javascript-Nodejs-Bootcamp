@@ -1,0 +1,32 @@
+DOM:
+===
+
+
+/*
+DOM -> document object model --> specification 
+
+when ever we load a html doc in the browser, browser which implements standard DOM will 
+create document object for the html document.
+
+It is a tree like data structure.
+
+DOM specficiation --> interface --> used to manipulate document object
+Different languages implement these specification --> create DOM API for their respective language
+
+*/
+
+Prototype Inheritence:
+---------------------
+
+
+|custom object|  ---> |prototype| ---> |object|
+
+
+
+//Primitive --> string, number, boolean, null, undefined
+//Internally wrapper classes convert the primitive type into objects
+
+
+// product --> object.prototype.hasOwnProperty --> null
+// Array   --> array.prototype --> object.prototype --> null
+//functions --> func.prototype --> object.prototype --> null
