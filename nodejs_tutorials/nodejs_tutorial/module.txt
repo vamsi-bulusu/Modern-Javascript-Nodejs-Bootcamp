@@ -1,0 +1,79 @@
+Working with node modules :
+=========================
+
+Node module is a javascript file.
+It's a way to separate concerns for our application. 
+How to expose the current module to other modules?
+
+
+we export all modules to the module.js 
+
+require(path) => compiles the file and returns the export obj 
+
+
+Working with events:
+===================
+
+EventEmitter --> class
+we can register events on predefined objects as well as user defined objects.
+we can raise events using emit method present in event emittter. 
+
+
+working with readline module:
+============================
+The readline module provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.
+
+readline --> interface
+
+working with file system module:
+===============================
+
+The fs module provides an API for interacting with the file system in a manner closely modeled around standard POSIX functions.
+
+creating files and directories
+
+creating a stream object for existing file
+
+Why should we use streams?
+If we have a large file to be processed we can't just read the entire file directly since
+buffer size is limited, so we use streams which reads chunks of data and flush the buffer once the chunk has been processed.
+
+Working with pipes and pipe chaining:
+====================================
+
+pipe is similar to that of streams but pipe directly takes a writestream object to send data.
+
+
+
+Creating a http server using the http module:
+============================================
+
+using http module.
+we create a web server listening at some port.
+
+
+installing packages using npm package manager:
+=============================================
+
+npm is a package manager for the JavaScript programming language.
+It is the default package manager for the JavaScript runtime environment Node.js.
+It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry.
+
+Semantic Versioning:
+===================
+
+4.17.11 ==> here 4 indicates major version number
+            here 17 indaicate minor version number
+            here 11 indaicate patch number
+
+==========================================
+Working with express:
+====================
+
+express framework: express is a web framework for node js.
+
+express is useful to create middleware for the node application.
+
+express is useful for creating routes.
+
+

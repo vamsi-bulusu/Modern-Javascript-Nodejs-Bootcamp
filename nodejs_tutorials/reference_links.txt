@@ -1,0 +1,12 @@
+JS tutorials: https://javascript.info/
+
+About DOM : https://en.wikipedia.org/wiki/Document_Object_Model
+
+About Javascript specification : https://en.wikipedia.org/wiki/ECMAScript
+
+About Javascript engine : https://en.wikipedia.org/wiki/JavaScript_engine
+
+About V8 engine : https://en.wikipedia.org/wiki/V8_(JavaScript_engine)
+
+
+MDN tutorial : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference.

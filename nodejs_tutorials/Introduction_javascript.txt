@@ -1,0 +1,68 @@
+Javascript is a Programming/Scripting Language
+
+
+It was initially created to make web pages alive.
+
+
+The programs in this language are called scripts. They can be written inside web page's HTML and 
+run automatically as the page loads.
+
+scripts are provided and executed as plain text. They don't need any preparation or compilation to run.
+
+
+Javascript has its own specification called ECMAScript.
+
+Today JS can execute not only in browser but also on the server, 
+or actually any device that has a special program called the javascript engine.
+
+A JavaScript engine is a computer program that executes JavaScript (JS) code. 
+The first JavaScript engines were mere interpreters, 
+but all relevant modern engines utilize just-in-time compilation for improved performance.
+
+In a browser, the JavaScript engine runs in concert with the rendering engine via the Document Object Model.
+
+=> The Chrome V8 engine is a core component of the popular Node.js runtime system.
+
+
+
+web_browers :
+=============
+
+To render a document such as a HTML page, most web browsers use an internal model similar to the DOM. 
+The nodes of every document are organized in a tree structure, called the DOM tree, with the topmost node named as "Document object".
+When an HTML page is rendered in browsers, the browser downloads the HTML into local memory and automatically parses it to display the page on screen.
+
+
+Javascript:
+==========
+When a web page is loaded, the browser creates a Document Object Model of the page, which is an object oriented representation of an HTML document that acts as an interface between JavaScript and the document itself. 
+This allows the creation of dynamic web pages,[9] because within a page JavaScript can:
+
+add, change, and remove any of the HTML elements and attributes
+change any of the CSS styles
+react to all the existing events
+create new events
+
+
+Web browsers rely on layout engines to parse HTML into a DOM. Some layout engines, such as Trident/MSHTML, 
+are associated primarily or exclusively with a particular browser, such as Internet Explorer. 
+Others, including Blink, WebKit, and Gecko, are shared by a number of browsers, such as Google Chrome, Opera, Safari, and Firefox. 
+The different layout engines implement the DOM standards to varying degrees of compliance
+
+
+
+The browser has an embedded engine sometimes called a “JavaScript virtual machine”
+
+
+==========================================================================================
+How do engines work?
+Engines are complicated. But the basics are easy.
+
+The engine (embedded if it’s a browser) reads (“parses”) the script.
+Then it converts (“compiles”) the script to the machine language.
+And then the machine code runs, pretty fast.
+The engine applies optimizations at each step of the process. 
+It even watches the compiled script as it runs, analyzes the data that flows through it, and further optimizes the machine code based on that knowledge.
+==========================================================================================
+
+
